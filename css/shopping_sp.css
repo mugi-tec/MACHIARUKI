@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+/* CSS Information
+---------------------------------------------------------------
+Site URL:http://machiaruki.com/
+File name:shopping_sp.css
+Summary:base styles
+Created:2020-10-26
+Last update:2020-10-26 by Sadaoka
+Author:	Sadaoka(BUNKASOZOSHA Co.,Ltd.)
+Copyright:(C) BUNKASOZOSHA Co.,Ltd.
+--------------------------------------------------------------- */
+
+@media screen and (max-width: 980px) {
+
+/* Title */
+/* ------------------------------------------------------------ */
+
+main#tourist section.titlevisual .inner .catchphrase {
+    position: absolute;
+    top: 170px;
+    text-align: center;
+}
+
+main#tourist section.titlevisual .inner .catchphrase span {
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 -0.1em 0 0;
+    padding: 0;
+    display: inline-block;
+}
+
+main#tourist section.titlevisual .inner .description {
+    position: absolute;
+    top: 220px;
+    text-align: center;
+}
+
+main#tourist section.titlevisual .inner .description .txt {
+    line-height: 1.5;
+    margin-right: -0.1em;
+    font-size: 12px;
+    color: #000;
+    text-shadow: none;
+}
+
+/* Contents */
+/* ------------------------------------------------------------ */
+
+main#tourist section.content .inner ul {
+    margin: 10px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main#tourist section.content .inner ul li {
+    text-align: center;
+    width: 49%;
+    margin: 20px 0 0;
+}
+
+main#tourist section.content .inner ul li figure img {
+    width: 100%;
+    height: auto;
+}
+
+main#tourist section.content .inner ul li h4 {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    margin-right: -0.03em;
+    margin: 10px auto;
+}
+
+main#tourist section.content .inner ul li .comment {
+    text-align: center;
+    font-size: 10px;
+    line-height: 1.2;
+    margin: 10px auto;
+}
+
+main#tourist section.content .inner .btn {
+    margin: 0 auto;
+}
+
+main#tourist section.content .inner .btn a {
+    height: 40px;
+}
+
+main#tourist section.content .inner .detail_main {
+    width: 100%;
+    margin: 30px auto 0;
+}
+
+main#tourist section.content .inner .detail_main img {
+    width: 100%;
+    height: auto;
+}
+
+main#tourist section.content .inner .detail_figcaption {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 20px auto 40px;
+}
+
+main#tourist section.content .inner .highlights {
+    margin: 40px auto;
+}
+
+main#tourist section.content .inner .highlights h4 {
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    margin-right: -0.03em;
+}
+
+main#tourist section.content .inner .highlights div {
+    margin: 20px auto 0;
+}
+
+main#tourist section.content .inner .highlights .imgleft {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+main#tourist section.content .inner .highlights .imgright {
+    float: right;
+    margin: 0 0 0 10px;
+}
+
+main#tourist section.content .inner .highlights figcaption {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+}
+
+main#tourist section.content .inner .btn_back {
+    width: 200px;
+    margin: 40px auto 0;
+}
+
+main#tourist section.content .inner .btn_back a {
+    height: 40px;
+}
+
+main#tourist section.content .inner .highlights figcaption dl {
+    text-align: left;
+    line-height: 1;
+    margin: 10px 0 0;
+    display: block;
+}
+
+main#tourist section.content .inner .highlights figcaption dt {
+    color: #b64936;
+    font-size: 16px;
+    margin-right: -0.1em;
+    display: block;
+}
+
+main#tourist section.content .inner .highlights figcaption dd {
+    margin: 10px 0 0;
+    display: block;
+}
+
+main#tourist section.content .inner .map {
+    margin: 40px auto;
+}
+
+main#tourist section.content .inner .map figure img {
+    width: 100%;
+    height: auto;
+}
+
+main#tourist section.content .inner .map figcaption {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-top: 10px;
+    margin-right: -0.1em;
+}
+
+main#tourist section.content .inner aside {
+    margin: 40px auto;
+}
+
+main#tourist section.content .inner aside h5 {
+    color: #b64936;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    margin-right: -0.03em;
+}
+
+main#tourist section.content .inner aside .dllist {
+	margin: 20px 0 0;
+}
+
+main#tourist section.content .inner aside .dlbox {
+	width: 100%;
+    display: block;
+}
+
+main#tourist section.content .inner aside .dlbox .dtbox {
+	color: #808080;
+	text-align: left;
+    width: 100%;
+	border-top: 1px #000 solid;
+	display: block;
+}
+
+main#tourist section.content .inner aside .dlbox .ddbox {
+	text-align: left;
+	width: 100%;
+	border-top: 1px #bfbfbf solid;
+	display: block;
+}
+
+main#tourist section.content .inner aside .dlbox:last-child .dtbox {
+	border-bottom: none;
+}
+
+main#tourist section.content .inner aside .dlbox:last-child .ddbox {
+	border-bottom: 1px #000 solid;
+}
+
+main#tourist section.content .inner aside .dlbox .wrap {
+    font-size: 14px;
+    line-height: 1.7;
+	padding: 5px 10px;
+}
+
+main#tourist section.content .inner aside .btn {
+    margin: 10px auto 0;
+}
+
+main#tourist section.content .inner aside .btn a {
+    height: 30px;
+}
+
+main#tourist section.content .inner aside .btn a span {
+    font-size: 12px;
+    margin-right: -0.1em;
+}
+
+main#tourist section.content .inner aside .btn a img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 12px;
+    height: 9px;
+}
+
+main#tourist section.content .inner .cooperation {
+    text-align: left;
+    font-size: 10px;
+    line-height: 1.5;
+    margin: -20px 0 40px;
+}
+
+}

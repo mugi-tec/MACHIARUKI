@@ -1,0 +1,15 @@
+#SSIでのインクルードファイル読み込み対応
+Options +Includes
+AddHandler server-parsed html
+
+#拡張子「.html」をブラウザで非表示にする
+#RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME}\.html -f
+#RewriteRule ^(.*)$ $1.html
+
+#各エラーページのリダイレクト設定
+ErrorDocument 401 http://machiaruki.com/
+ErrorDocument 403 http://machiaruki.com/
+ErrorDocument 404 http://machiaruki.com/
+ErrorDocument 500 http://machiaruki.com/

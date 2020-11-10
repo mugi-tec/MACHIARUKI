@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/* CSS Information
+---------------------------------------------------------------
+Site URL:http://machiaruki.com/
+File name:masterpiece_sp.css
+Summary:base styles
+Created:2020-10-26
+Last update:2020-10-26 by Sadaoka
+Author:	Sadaoka(BUNKASOZOSHA Co.,Ltd.)
+Copyright:(C) BUNKASOZOSHA Co.,Ltd.
+--------------------------------------------------------------- */
+
+@media screen and (max-width: 980px) {
+
+/* Title */
+/* ------------------------------------------------------------ */
+
+main#masterpiece section.titlevisual .inner .catchphrase {
+    position: absolute;
+    top: 170px;
+    text-align: center;
+}
+
+main#masterpiece section.titlevisual .inner .catchphrase span {
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 -0.1em 0 0;
+    padding: 0;
+    display: inline-block;
+}
+
+main#masterpiece section.titlevisual .inner .description {
+    position: absolute;
+    top: 220px;
+    text-align: center;
+}
+
+main#masterpiece section.titlevisual .inner .description .txt {
+    line-height: 1.5;
+    margin-right: -0.1em;
+    font-size: 12px;
+    color: #000;
+    text-shadow: none;
+}
+
+/* Contents */
+/* ------------------------------------------------------------ */
+
+main#masterpiece section.content .inner article {
+    margin: 60px auto 0;
+}
+
+main#masterpiece section.content .inner article h4 {
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    margin-right: -0.03em;
+}
+
+main#masterpiece section.content .inner article h4 em {
+    color: #5d247b;
+    font-size: 10px;
+}
+
+main#masterpiece section.content .inner article > div {
+    margin: 20px auto 0;
+}
+
+main#masterpiece section.content .inner article figure {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+main#masterpiece section.content .inner article figcaption {
+    display: block;
+}
+
+main#masterpiece section.content .inner article figcaption .comment {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 20px 0 0;
+}
+
+main#masterpiece section.content .inner article figcaption dl {
+    border-top: 1px #b3b3b3 dotted;
+    text-align: left;
+    margin: 10px 0 0;
+}
+
+main#masterpiece section.content .inner article figcaption dt {
+    text-align: center;
+    color: #b64936;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    margin-right: -0.03em;
+    padding: 15px 0 0;
+    display: block;
+}
+
+main#masterpiece section.content .inner article figcaption dd {
+    text-align: center;
+    font-size: 14px;
+    margin-right: -0.1em;
+    margin-top: 10px;
+    display: block;
+}
+
+main#masterpiece section.content .inner .btn {
+    margin: 5px auto 0;
+}
+
+main#masterpiece section.content .inner .btn a {
+    height: 30px;
+}
+
+main#masterpiece section.content .inner .btn a span {
+    font-size: 12px;
+    margin-right: -0.1em;
+}
+
+main#masterpiece section.content .inner .btn a img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 12px;
+    height: 9px;
+}
+
+}

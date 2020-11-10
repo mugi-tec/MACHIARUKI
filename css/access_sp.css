@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+/* CSS Information
+---------------------------------------------------------------
+Site URL:http://machiaruki.com/
+File name:access_sp.css
+Summary:base styles
+Created:2020-10-26
+Last update:2020-10-26 by Sadaoka
+Author:	Sadaoka(BUNKASOZOSHA Co.,Ltd.)
+Copyright:(C) BUNKASOZOSHA Co.,Ltd.
+--------------------------------------------------------------- */
+
+@media screen and (max-width: 980px) {
+
+/* Title */
+/* ------------------------------------------------------------ */
+
+main#access section.titlevisual .inner .catchphrase {
+    position: absolute;
+    top: 170px;
+    text-align: center;
+}
+
+main#access section.titlevisual .inner .catchphrase span {
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 -0.1em 0 0;
+    padding: 0;
+    display: inline-block;
+}
+
+main#access section.titlevisual .inner .description {
+    position: absolute;
+    top: 220px;
+    text-align: center;
+}
+
+main#access section.titlevisual .inner .description .txt {
+    line-height: 1.5;
+    margin-right: -0.1em;
+    font-size: 12px;
+    color: #000;
+    text-shadow: none;
+}
+
+/* Contents */
+/* ------------------------------------------------------------ */
+
+main#access ul.internallinks {
+    margin: 20px auto 0;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main#access ul.internallinks li {
+    width: 49%;
+}
+
+main#access ul.internallinks li a {
+    background: #fff url(../images/icon_arrow_under.png) no-repeat center bottom 5px;
+    text-align: center;
+    color: #000;
+    font-size: 10px;
+    line-height: 1.2;
+    text-decoration: none;
+    height: 30px;
+    margin: 20px 0 0;
+    padding: 10px 0;
+    display: block;
+    border: 1px #bfbfbf solid;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+main#access ul.internallinks li a span {
+    font-size: 12px;
+    display: block;
+}
+
+main#access ul.internallinks li a:hover {
+    background-color: #e1e1e1;
+}
+
+main#access section.content .inner figure {
+    margin: 30px auto;
+}
+
+main#access section.content .inner figure img {
+    width: 100%;
+}
+
+main#access section.content .inner .btn_area {
+    width: 100%;
+}
+
+main#access section.content .inner .btn {
+    width: 100%;
+    margin: 20px auto 0;
+}
+
+main#access section.content .inner .btn a {
+    height: 40px;
+}
+
+main#access section.content .inner .notice {
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 10px;
+    border: 5px #eddfc5 solid;
+}
+
+main#access section.content .inner .notice h4 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+}
+
+main#access section.content .inner .notice h4::after {
+    content: "";
+    background: #000;
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+main#access section.content .inner .notice dl {
+    font-size: 12px;
+    line-height: 1.7;
+    display: table;
+}
+
+main#access section.content .inner .notice dl dt {
+	text-align: left;
+	display: table-cell;
+}
+
+main#access section.content .inner .notice dl dd {
+	text-align: left;
+	display: table-cell;
+}
+
+main#access section.content .inner .notice p {
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.7;
+}
+
+main#access section.content .inner .notice em {
+    color: #b64936;
+}
+
+main#access section#section06 .googlemap {
+    width: 100%;
+    height: 300px;
+    margin: 30px auto;
+    display: block;
+}
+
+main#access section#section06 .printcomment {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 30px auto 0;
+}
+
+main#access section#section06 ul {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main#access section#section06 ul li {
+    text-align: center;
+    width: 49%;
+    margin: 20px auto 0;
+}
+
+main#access section#section06 ul li figure {
+    margin: 0;
+}
+
+main#access section#section06 ul li figure img {
+    width: 100%;
+    height: auto;
+}
+
+main#access section#section06 ul li figcaption p {
+    text-align: center;
+    font-size: 12px;
+    margin: 10px auto;
+}
+
+main#access section#section06 ul li .btn {
+    margin: 0 auto;
+}
+
+main#access section#section06 ul li .btn a {
+    height: 40px;
+}
+
+main#access section#section06 ul li .btn a span {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    margin-right: -0.1em;
+}
+
+}

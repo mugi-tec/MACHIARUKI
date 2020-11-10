@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/* CSS Information
+---------------------------------------------------------------
+Site URL:http://machiaruki.com/
+File name:masterpiece.css
+Summary:base styles
+Created:2020-10-26
+Last update:2020-10-26 by Sadaoka
+Author:	Sadaoka(BUNKASOZOSHA Co.,Ltd.)
+Copyright:(C) BUNKASOZOSHA Co.,Ltd.
+--------------------------------------------------------------- */
+
+@media screen and (min-width: 981px) {
+
+/* Contents */
+/* ------------------------------------------------------------ */
+
+main#masterpiece section.content .inner article {
+    margin: 90px auto 0;
+}
+
+main#masterpiece section.content .inner article h4 {
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    margin-right: -0.03em;
+}
+
+main#masterpiece section.content .inner article h4 em {
+    color: #5d247b;
+    font-size: 14px;
+}
+
+main#masterpiece section.content .inner article > div {
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+main#masterpiece section.content .inner article figure {
+    text-align: left;
+    width: 300px;
+}
+
+main#masterpiece section.content .inner article figcaption {
+    width: 680px;
+
+}
+
+main#masterpiece section.content .inner article figcaption .comment {
+    text-align: left;
+    line-height: 1.7;
+}
+
+main#masterpiece section.content .inner article figcaption dl {
+    border-top: 1px #b3b3b3 dotted;
+    text-align: left;
+    margin: 20px 0 0;
+}
+
+main#masterpiece section.content .inner article figcaption dt {
+    color: #b64936;
+    font-size: 18px;
+    padding: 20px 0 0;
+    display: block;
+}
+
+main#masterpiece section.content .inner article figcaption dd {
+    margin: 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main#masterpiece section.content .inner .btn {
+    width: 270px;
+}
+
+main#masterpiece section.content .inner .btn a {
+    height: 20px;
+}
+
+main#masterpiece section.content .inner .btn a span {
+    font-size: 12px;
+    margin-right: -0.1em;
+}
+
+main#masterpiece section.content .inner .btn a img {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 12px;
+    height: 9px;
+}
+
+}

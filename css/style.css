@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* CSS Information
+---------------------------------------------------------------
+Site URL:http://machiaruki.com/
+File name:style.css
+Summary:base styles
+Created:2020-11-10
+Last update:2020-11-10 by Sadaoka
+Author:	Sadaoka(BUNKASOZOSHA Co.,Ltd.)
+Copyright:(C) BUNKASOZOSHA Co.,Ltd.
+--------------------------------------------------------------- */
+
+@import url("/css/fonts.css?date=20201110");
+
+@import url("/css/reset.css?date=20201110");
+
+@import url("/css/common.css?date=20201110");
+@import url("/css/index.css?date=20201110");
+@import url("/css/shopping.css?date=20201110");
+@import url("/css/shopping_detail.css?date=20201110");
+@import url("/css/parking.css?date=20201110");
+@import url("/css/parking_detail.css?date=20201110");
+
+@import url("/css/common_sp.css?date=20201110");
+@import url("/css/index_sp.css?date=20201110");
+@import url("/css/shopping_sp.css?date=20201110");
+@import url("/css/shopping_detail_sp.css?date=20201110");
+@import url("/css/parking_sp.css?date=20201110");
+@import url("/css/parking_detail_sp.css?date=20201110");

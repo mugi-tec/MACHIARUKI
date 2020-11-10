@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+/* CSS Information
+---------------------------------------------------------------
+Site URL:http://machiaruki.com/
+File name:lodging_sp.css
+Summary:base styles
+Created:2020-10-26
+Last update:2020-10-26 by Sadaoka
+Author:	Sadaoka(BUNKASOZOSHA Co.,Ltd.)
+Copyright:(C) BUNKASOZOSHA Co.,Ltd.
+--------------------------------------------------------------- */
+
+@media screen and (max-width: 980px) {
+
+/* Title */
+/* ------------------------------------------------------------ */
+
+main#lodging section.titlevisual .inner .catchphrase {
+    position: absolute;
+    top: 170px;
+    text-align: center;
+}
+
+main#lodging section.titlevisual .inner .catchphrase span {
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 -0.1em 0 0;
+    padding: 0;
+    display: inline-block;
+}
+
+main#lodging section.titlevisual .inner .description {
+    position: absolute;
+    top: 220px;
+    text-align: center;
+}
+
+main#lodging section.titlevisual .inner .description .txt {
+    line-height: 1.5;
+    margin-right: -0.1em;
+    font-size: 12px;
+    color: #000;
+    text-shadow: none;
+}
+
+/* Contents */
+/* ------------------------------------------------------------ */
+
+main#lodging section.content .inner article {
+    margin: 60px auto 0;
+}
+
+main#lodging section.content .inner article h4 {
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    margin-right: -0.03em;
+}
+
+main#lodging section.content .inner article > div {
+    margin: 20px 0 0;
+    display: block;
+}
+
+main#lodging section.content .inner article figure {
+    margin: 0 auto;
+}
+
+main#lodging section.content .inner article figure .main_photo img {
+    width: 100%;
+    height: auto;
+}
+
+main#lodging section.content .inner article ul.thumbnail_photo {
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main#lodging section.content .inner article ul.thumbnail_photo li {
+    width: 49%;
+}
+
+main#lodging section.content .inner article ul.thumbnail_photo li img {
+    width: 100%;
+    height: auto;
+}
+
+main#lodging section.content .inner article ul.thumbnail_photo li img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+main#lodging section.content .inner .btn {
+    margin: 20px auto 0;
+}
+
+main#lodging section.content .inner .btn a {
+    height: 40px;
+}
+
+main#lodging section.content .inner article figcaption {
+    width: 100%;
+    margin: 20px auto 0;
+}
+
+main#lodging section.content .inner article .comment {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+main#lodging section.content .inner article .dllist {
+	margin: 20px 0 0;
+}
+
+main#lodging section.content .inner article .dlbox {
+	width: 100%;
+    display: block;
+}
+
+main#lodging section.content .inner article .dlbox .dtbox {
+	color: #808080;
+	text-align: left;
+    width: 100%;
+	border-top: 1px #000 solid;
+	display: block;
+}
+
+main#lodging section.content .inner article .dlbox .ddbox {
+	text-align: left;
+	width: 100%;
+	border-top: 1px #bfbfbf solid;
+	display: block;
+}
+
+main#lodging section.content .inner article .dlbox:last-child .dtbox {
+	border-bottom: none;
+}
+
+main#lodging section.content .inner article .dlbox:last-child .ddbox {
+	border-bottom: 1px #000 solid;
+}
+
+main#lodging section.content .inner article .dlbox .wrap {
+    font-size: 14px;
+    line-height: 1.7;
+	padding: 5px 10px;
+}
+
+main#lodging section.content .inner .notice {
+    background-color: #fff;
+    margin: 60px auto 0;
+    padding: 10px;
+    border: 5px #eddfc5 solid;
+}
+
+main#lodging section.content .inner .notice h4 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+}
+
+main#lodging section.content .inner .notice h4::after {
+    content: "";
+    background: #000;
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+main#lodging section.content .inner .notice p {
+    text-align: left;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+main#lodging section.content .inner .notice em {
+    color: #b64936;
+}
+
+}
