@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+/* CSS Information
+---------------------------------------------------------------
+Site URL:http://machiaruki.com/
+File name:parking_sp.css
+Summary:base styles
+Created:2020-10-26
+Last update:2020-10-26 by Sadaoka
+Author:	Sadaoka(BUNKASOZOSHA Co.,Ltd.)
+Copyright:(C) BUNKASOZOSHA Co.,Ltd.
+--------------------------------------------------------------- */
+
+@media screen and (max-width: 980px) {
+
+/* Title */
+/* ------------------------------------------------------------ */
+
+main#parking section.titlevisual .inner .catchphrase {
+    position: absolute;
+    top: 170px;
+    text-align: center;
+}
+
+main#parking section.titlevisual .inner .catchphrase span {
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 -0.1em 0 0;
+    padding: 0;
+    display: inline-block;
+}
+
+main#parking section.titlevisual .inner .description {
+    position: absolute;
+    top: 220px;
+    text-align: center;
+}
+
+main#parking section.titlevisual .inner .description .txt {
+    line-height: 1.5;
+    margin-right: -0.1em;
+    font-size: 10px;
+    color: #000;
+    text-shadow: none;
+}
+
+/* Contents */
+/* ------------------------------------------------------------ */
+
+main#parking section.content .inner article {
+    margin: 40px auto;
+}
+
+main#parking section.content .inner article h4 {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    margin-right: -0.03em;
+}
+
+main#parking section.content .inner article figure {
+    margin: 20px auto 0;
+}
+
+main#parking section.content .inner article figure img {
+    width: 100%;
+    height: auto;
+}
+
+main#parking section.content .inner article figcaption {
+    text-align: center;
+    margin: 5px 0 0;
+    margin-right: -0.1em;
+}
+
+main#parking section.content .inner article .notice {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 10px;
+    border: 5px #eddfc5 solid;
+}
+
+main#parking section.content .inner article .notice h4 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 0 0 10px;
+}
+
+main#parking section.content .inner article .notice h4::after {
+    content: "";
+    background: #000;
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+main#parking section.content .inner article .notice ul {
+    font-size: 12px;
+    line-height: 2;
+}
+
+main#parking section.content .inner article .notice ul li {
+    background: url(../parking/images/icon_arrow_right.png) no-repeat left center;
+    text-align: left;
+    padding: 0 0 0 10px;
+}
+
+main#parking section.content .inner article .notice ul li a {
+    color: #000;
+}
+
+main#parking section.content .inner .dllist {
+	margin: 40px 0 0;
+}
+
+main#parking section.content .inner .dlbox {
+	width: 100%;
+    display: block;
+}
+
+main#parking section.content .inner .dlbox .dtbox {
+	color: #808080;
+    text-align: left;
+    width: 100%;
+    border-top: 1px #000 solid;
+    display: block;
+}
+
+main#parking section.content .inner .dlbox .ddbox {
+	text-align: left;
+    width: 100%;
+    border-top: 1px #bfbfbf solid;
+    display: block;
+}
+
+main#parking section.content .inner .dlbox:last-child .dtbox {
+	border-bottom: none;
+}
+
+main#parking section.content .inner .dlbox:last-child .ddbox {
+	border-bottom: 1px #000 solid;
+}
+
+main#parking section.content .inner .dlbox .wrap {
+    font-size: 14px;
+    line-height: 1.7;
+    padding: 5px 10px;
+}
+
+main#parking section.content .inner .affiliated {
+    color: #bf4034;
+}
+
+main#parking section.content .inner .attention {
+    color: #bf4034;
+    text-align: left;
+    font-size: 12px;
+    line-height: 1.7;
+    margin: 5px 0 0;
+}
+
+main#parking section.content .inner .googlemap {
+    width: 100%;
+    height: 300px;
+    margin: 40px auto 0;
+}
+
+main#parking section.content .inner .btn {
+    margin: 20px auto 0;
+}
+
+main#parking section.content .inner .btn a {
+    height: 40px;
+}
+
+main#parking section.content .inner .btn_back {
+    width: 200px;
+    margin: 40px auto 0;
+}
+
+main#parking section.content .inner .btn_back a {
+    height: 40px;
+}
+
+}

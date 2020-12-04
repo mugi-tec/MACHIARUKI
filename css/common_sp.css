@@ -130,7 +130,7 @@ hr {
 }
 
 .sp_mode {
-    display: inline !important;
+    display: inline-block !important;
 }
 
 /* Header */
@@ -153,7 +153,7 @@ header section.common_header .inner {
 }
 
 header section.common_header .inner h1 {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
     line-height: 1.2;
     margin: 10px 10px 0 10px;
@@ -164,7 +164,7 @@ header section.common_header .inner h1 {
 
 header section.common_header .inner .logo {
     width: 139px;
-    margin: 40px auto 0;
+    margin: 60px auto 0;
 }
 
 header section.common_header .inner .logo img {
@@ -211,14 +211,6 @@ header section.common_header .inner .logo img {
 
 #nav_toggle span:nth-child(3) {
     top: 20px;
-}
-
-#nav_toggle:hover span:nth-child(1) {
-    top: 4px;
-}
-
-#nav_toggle:hover span:nth-child(3) {
-    top: 16px;
 }
 
 .open #nav_toggle span {
@@ -553,8 +545,8 @@ main section.titlevisual .inner .btn a img {
     position: absolute;
     top: 8px;
     right: 5px;
-    width: 20px;
-    height: 15px;
+    width: 20px !important;
+    height: 15px !important;
 }
 
 /* Breadcrumb */
@@ -701,8 +693,8 @@ main section.content .inner a.tel[href^="tel:"] {
     position: absolute;
     top: 13px;
     right: 10px;
-    width: 20px;
-    height: 15px;
+    width: 20px !important;
+    height: 15px !important;
 }
 
 .btn_back {

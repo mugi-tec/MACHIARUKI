@@ -37,8 +37,8 @@ header section.mainvisual .inner {
 }
 
 header section.mainvisual h1 {
-    color: #fff;
-    font-size: 12px;
+    color: #000;
+    font-size: 10px;
     font-weight: 600;
     line-height: 1.2;
     margin: 10px 10px 0 10px;
@@ -67,8 +67,8 @@ header section.mainvisual .icon {
 }
 
 header section.mainvisual .icon img {
-    width: 30px;
-    height: 66px;
+    width: 15px;
+    height: auto;
 }
 
 header section.mainvisual .animation {
